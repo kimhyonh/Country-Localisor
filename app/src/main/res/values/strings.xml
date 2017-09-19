@@ -1,8 +1,4 @@
 <resources>
     <string name="app_name">Country Localisor</string>
     <string name="country">Canada</string>
-    <string name="cambodia">Cambodia</string>
-    <string name="america">America</string>
-    <string name="china">China</string>
-    <string name="philippine">Philippine</string>
 </resources>

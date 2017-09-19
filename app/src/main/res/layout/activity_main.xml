@@ -4,23 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="12dp"
     android:weightSum="10"
     tools:context="com.example.kimhyonh.countrylocalisor.MainActivity">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="5"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:textAlignment="center">
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/country"
             android:textAlignment="center"
-            android:text="@string/america"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/america"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="showMapByCountry"
+            android:src="@drawable/country" />
     </LinearLayout>
 
 </LinearLayout>
