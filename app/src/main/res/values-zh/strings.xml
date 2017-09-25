@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Country Localisor</string>
     <string name="lat">35.8617</string>
     <string name="lng">104.1954</string>
     <string name="zoom">4</string>

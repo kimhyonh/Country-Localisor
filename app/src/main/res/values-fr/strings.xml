@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Country Localisor</string>
-    <string name="country">Canada</string>
+    <string name="country">Canada(Fr)</string>
     <string name="location">Location</string>
     <string name="search">Chercher</string>
     <string name="error">Typer quelque chose</string>
+    <string name="webSearch">Google Chercher</string>
 </resources>

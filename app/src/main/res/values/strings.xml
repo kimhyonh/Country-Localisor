@@ -2,6 +2,7 @@
     <string name="app_name">Country Localisor</string>
     <string name="country">Canada</string>
     <string name="location">Location</string>
-    <string name="search">Search</string>
+    <string name="search">Map Search</string>
+    <string name="webSearch">Google Search</string>
     <string name="error">Please type your location</string>
 </resources>

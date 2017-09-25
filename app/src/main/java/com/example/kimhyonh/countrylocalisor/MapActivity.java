@@ -49,7 +49,7 @@ public class MapActivity extends Activity {
     }
 
     public void searchWeb(String query) {
-        Intent intent = new Intent(Intent.ACTION_SEARCH);
+        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
         intent.putExtra(SearchManager.QUERY, query);
         if(intent.resolveActivity(getPackageManager()) != null){
             startActivity(intent);
