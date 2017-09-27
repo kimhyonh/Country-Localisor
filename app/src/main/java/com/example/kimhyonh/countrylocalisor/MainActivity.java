@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -16,20 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void showMapByCountry(View v) {
-        String lat = getResources().getText(R.string.lat).toString();
-        String lng = getResources().getText(R.string.lng).toString();
-        String zoom = getResources().getText(R.string.zoom).toString();
+    public void openMapActivity(View v) {
+        Intent i = new Intent(this, MapActivity.class);
 
-        Uri uri = Uri.parse("geo:" + lat + "," + lng + "?z=" + zoom);
-        showMap(uri);
-    }
+        String country = getResources().getText(R.string.country).toString();
+        i.putExtra("Location", country);
 
-    public void showMap(Uri geoLocation) {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(geoLocation);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
+        startActivity(i);
     }
 }

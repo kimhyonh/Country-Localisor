@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Country Localisor</string>
-    <string name="lat">37.0902</string>
-    <string name="lng">-95.7129</string>
-    <string name="zoom">4</string>
-    <string name="country">The United State</string>
-</resources>
